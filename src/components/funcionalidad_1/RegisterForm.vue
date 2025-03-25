@@ -64,7 +64,6 @@ const resetFormData = () => {
 };
 
 const registerUser = (e) => {
-  e.preventDefault();
   if (validateFormFields()) {
     console.log("Formulario válido. Procediendo con el registro del usuario.");
     Swal.fire({
@@ -82,7 +81,7 @@ const registerUser = (e) => {
 <template>
   <div class="">
     <h1 class="text-2xl font-bold">Register form</h1>
-    <form class="flex items-center flex-col gap-3">
+    <form class="flex items-center flex-col gap-3" @submit.prevent="registerUser">
       <div class="mt-3 w-sm">
         <div class="sm:col-span-4">
           <label
@@ -213,7 +212,7 @@ const registerUser = (e) => {
       <div class="w-sm">
         <button
           class="bg-gray-800 text-white rounded-lg p-2 cursor-pointer w-full"
-          @click="registerUser($event)"
+          type="submit"
         >
           Register user
         </button>
