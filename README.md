@@ -13,7 +13,24 @@ En el repositorio, encontraremos una carpeta llamada `components`, que contiene 
 
 Por ejemplo, al abrir la carpeta `funcionalidad_1` (como se muestra en la imagen), veremos un archivo `componente.vue`, que corresponde a dicha funcionalidad, y un archivo `README`.
 
-En el `README`, se encuentra una descripción detallada de los requerimientos específicos de este módulo.
+En el `README`, se encuentra una descripción detallada de los requerimientos específicos de este módulo (Es importante leer estos requisitos para entender el por que de la logica del componente).
+
+![Ruta de los test de la funcionalidades](/src/assets/ruta_test_funcionalidades.png)
+
+Luego, como se muestra en la imagen 2, encontramos una carpeta llamada `test`, que contiene dos subcarpetas: `units` e `integration`.  
+
+- En `units` se encuentran las pruebas unitarias.  
+- En `integration` se encuentran las pruebas de integración.  
+
+Dentro de estas carpetas, los archivos de prueba están nombrados según el componente a testear y tienen la extensión `.test.js`.
+
+![Test de ejemplo](/src/assets/test_ejemplo.png)
+
+En la imagen 3, podemos ver que los archivos de práctica de pruebas incluyen comentarios que explican detalladamente cada test.  
+
+Estos comentarios describen los métodos utilizados y las pruebas realizadas, proporcionando una mejor comprensión del proceso de testeo.  
+
+
 
 ### Caracteristicas de un buen test
 1. Claridad:
