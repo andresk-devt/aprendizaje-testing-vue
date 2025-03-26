@@ -1,5 +1,20 @@
 # Aprendizaje de testing unitario frontend de una aplicacion (vue3)
 
+
+## Introduccion al repositorio
+En este repo encontraremos una explicación breve y detallada de, los primeros pasos que necesitamos para adentrarnos al mundo del testing en nuestras aplicaciones front-end.
+
+**¿Cómo leer la aplicación?**
+En este README, tenemos una introduccion a como leer el repositorio y los ejemplos practicos, ademas de una secuencia de información general que debemos de tener en cuenta para escribir test de calidad.
+
+![Ruta de los proyectos](/src/assets/ruta_funcionalidades.png)
+
+En el repositorio, encontraremos una carpeta llamada `components`, que contiene varias subcarpetas organizadas por funcionalidad, cada una identificada con un nombre y un número.
+
+Por ejemplo, al abrir la carpeta `funcionalidad_1` (como se muestra en la imagen), veremos un archivo `componente.vue`, que corresponde a dicha funcionalidad, y un archivo `README`.
+
+En el `README`, se encuentra una descripción detallada de los requerimientos específicos de este módulo.
+
 ### Caracteristicas de un buen test
 1. Claridad:
 
